@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-fetch';
 
 const search = (val) => (
-  fetch('http://localhost:5000/analyze', {
+  fetch('/analyze', {
     method: 'POST',
     headers: {
       Accept: 'application/json',
