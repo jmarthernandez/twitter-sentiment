@@ -5,8 +5,8 @@ const path = require('path');
 
 const TARGET = process.env.npm_lifecycle_event;
 const PATHS = {
-  lib: path.join(__dirname, 'app'),
-  build: __dirname,
+  lib: path.join(__dirname, 'static/app'),
+  build: path.join(__dirname, 'static'),
 };
 
 process.env.BABEL_ENV = TARGET;
