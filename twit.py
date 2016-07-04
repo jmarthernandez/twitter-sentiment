@@ -1,6 +1,6 @@
 from twitter import *
 import nltk
-nltk.data.path.append('./corpora/')
+nltk.data.path.append('nltk_data')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import json, pickle, os
